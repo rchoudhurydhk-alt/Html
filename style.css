@@ -1,13 +1,13 @@
- body {
-      font-family: "Poppins", sans-serif;
-      background: linear-gradient(135deg, #fdfbfb, #355b6d, #6b8ba4, #355b6d, #fdfbfb);
-      margin: 0;
-      padding: 10;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #fdfbfb, #355b6d, #6b8ba4, #355b6d, #fdfbfb);
+  margin: 0;
+  padding: 10px;   /* ← added px */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
     .container {
       background: white;
