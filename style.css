@@ -1,0 +1,19 @@
+body{
+    border:3px solid rgb(134, 236, 249);
+    background-color: lemonchiffon;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+h2{
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    color: rgb(1, 9, 9);
+    text-align: center;
+    background-color: lightseagreen;
+    padding: 30px;
+    border-radius: 20px;
+    background-image: url("paper.gif");
+}
