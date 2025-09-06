@@ -1,12 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Understanding Taxes</title>
+  <style>
+    /* Reset & base styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #1f4037, #99f2c8);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+    }
+
+    .content {
+      background: linear-gradient(145deg, #ff6a00, #ee0979);
+      border-radius: 20px;
+      box-shadow: 0 10px 35px rgba(0, 0, 0, 0.35);
+      max-width: 800px;
+      width: 100%;
+      padding: 50px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .icon {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      background: linear-gradient(90deg, #f7971e, #ffd200);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      color: #ffe5b4;
+      margin-top: 10px;
+    }
+
+    hr {
+      border: none;
+      height: 2px;
+      background: linear-gradient(to right, #fff, #ffd200, #fff);
+      margin: 30px 0;
+    }
+
+    main {
+      font-size: 1.15rem;
+      line-height: 1.8;
+      text-align: justify;
+    }
+
+    main p {
+      margin-bottom: 20px;
+      background: linear-gradient(90deg, #0c0b0b, #141314);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 500;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 0.9rem;
+      color: #f8e090;
+      opacity: 0.85;
+    }
+
+    @media (max-width: 640px) {
+      body {
+        padding: 20px;
+      }
+
+      .content {
+        padding: 30px 20px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      main {
+        font-size: 1rem;
+      }
+    }
+  </style>
 </head>
 <body>
-    <h2>Taxes</h2>
-    <p style="color: coral;">Taxes are taxes.</p>
+  <div class="content">
+    <header>
+      <div class="icon">💰</div>
+      <h1>Understanding Taxes</h1>
+      <div class="subtitle">Why we pay them, where they go, and why it matters</div>
+    </header>
+
+    <hr />
+
+    <main>
+      <p>
+        Taxes are mandatory financial contributions imposed by governments on individuals and businesses. These funds are essential for running a country — they support public services like education, healthcare, defense, and infrastructure. Without taxes, governments wouldn't be able to maintain the systems that support everyday life.
+      </p>
+      <p>
+        While paying taxes may seem like a burden, they’re a foundational part of a functioning society. Understanding how taxes work can help citizens make informed financial decisions and actively participate in shaping public policy and economic growth.
+      </p>
+    </main>
+
+    <footer>
+      © 2025 Civic Finance Guide
+    </footer>
+  </div>
 </body>
 </html>
