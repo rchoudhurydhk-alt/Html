@@ -1,30 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Understanding Taxes</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        h2 {
-            color: #2c3e50;
-        }
-        p {
-            color: coral;
-            font-size: 1.1rem;
-            line-height: 1.6;
-        }
-    </style>
-</head>
-<body>
-    <h2>Understanding Taxes</h2>
-    <p>
-        Taxes are mandatory financial charges imposed by governments on individuals and businesses. They fund essential public services such as education, healthcare, infrastructure, and security. While taxes can sometimes feel burdensome, they play a vital role in maintaining the functioning and development of society.
-    </p>
-</body>
-</html>
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.container {
+    background: linear-gradient(145deg, #ff6a00, #ee0979);
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background: linear-gradient(90deg, #f7971e, #ffd200);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    background: linear-gradient(90deg, #ff9a9e, #fad0c4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+@media (max-width: 640px) {
+    body {
+        padding: 20px;
+    }
+    .container {
+        padding: 20px;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1rem;
+    }
