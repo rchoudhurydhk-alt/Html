@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     min-height: 100vh;
-    background: linear-gradient(135deg, #d7e8f7, #f3f9fd);
+    background: linear-gradient (135deg,#4994d6,#fafafa);
     color: #4a4a4a;
     display: flex;
     flex-direction: column;
